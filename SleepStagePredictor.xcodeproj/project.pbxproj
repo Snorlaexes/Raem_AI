@@ -16,6 +16,9 @@
 		0C6C6C202C6CFF94002CEF59 /* SleepStagePredictorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C6C1F2C6CFF94002CEF59 /* SleepStagePredictorTests.swift */; };
 		0C6C6C2A2C6CFF94002CEF59 /* SleepStagePredictorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C6C292C6CFF94002CEF59 /* SleepStagePredictorUITests.swift */; };
 		0C6C6C2C2C6CFF94002CEF59 /* SleepStagePredictorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C6C2B2C6CFF94002CEF59 /* SleepStagePredictorUITestsLaunchTests.swift */; };
+		0C6C6C392C6CFFC2002CEF59 /* MyTabularClassifier0814_2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C6C382C6CFFC2002CEF59 /* MyTabularClassifier0814_2.mlmodel */; };
+		0C6C6C3B2C6CFFDB002CEF59 /* S020_test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C6C3A2C6CFFDB002CEF59 /* S020_test.csv */; };
+		0C6C6C3D2C6D0019002CEF59 /* MlTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C6C3C2C6D0019002CEF59 /* MlTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		0C6C6C252C6CFF94002CEF59 /* SleepStagePredictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepStagePredictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6C6C292C6CFF94002CEF59 /* SleepStagePredictorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepStagePredictorUITests.swift; sourceTree = "<group>"; };
 		0C6C6C2B2C6CFF94002CEF59 /* SleepStagePredictorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepStagePredictorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C6C6C382C6CFFC2002CEF59 /* MyTabularClassifier0814_2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyTabularClassifier0814_2.mlmodel; sourceTree = "<group>"; };
+		0C6C6C3A2C6CFFDB002CEF59 /* S020_test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = S020_test.csv; sourceTree = "<group>"; };
+		0C6C6C3C2C6D0019002CEF59 /* MlTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MlTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,8 @@
 		0C6C6BFD2C6CFF92002CEF59 = {
 			isa = PBXGroup;
 			children = (
+				0C6C6C3C2C6D0019002CEF59 /* MlTestView.swift */,
+				0C6C6C382C6CFFC2002CEF59 /* MyTabularClassifier0814_2.mlmodel */,
 				0C6C6C082C6CFF92002CEF59 /* SleepStagePredictor */,
 				0C6C6C1E2C6CFF94002CEF59 /* SleepStagePredictorTests */,
 				0C6C6C282C6CFF94002CEF59 /* SleepStagePredictorUITests */,
@@ -98,6 +106,7 @@
 		0C6C6C082C6CFF92002CEF59 /* SleepStagePredictor */ = {
 			isa = PBXGroup;
 			children = (
+				0C6C6C3A2C6CFFDB002CEF59 /* S020_test.csv */,
 				0C6C6C092C6CFF92002CEF59 /* SleepStagePredictorApp.swift */,
 				0C6C6C0B2C6CFF92002CEF59 /* ContentView.swift */,
 				0C6C6C0D2C6CFF94002CEF59 /* Assets.xcassets */,
@@ -239,6 +248,7 @@
 			files = (
 				0C6C6C112C6CFF94002CEF59 /* Preview Assets.xcassets in Resources */,
 				0C6C6C0E2C6CFF94002CEF59 /* Assets.xcassets in Resources */,
+				0C6C6C3B2C6CFFDB002CEF59 /* S020_test.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6C6C392C6CFFC2002CEF59 /* MyTabularClassifier0814_2.mlmodel in Sources */,
 				0C6C6C132C6CFF94002CEF59 /* Persistence.swift in Sources */,
 				0C6C6C0C2C6CFF92002CEF59 /* ContentView.swift in Sources */,
+				0C6C6C3D2C6D0019002CEF59 /* MlTestView.swift in Sources */,
 				0C6C6C162C6CFF94002CEF59 /* SleepStagePredictor.xcdatamodeld in Sources */,
 				0C6C6C0A2C6CFF92002CEF59 /* SleepStagePredictorApp.swift in Sources */,
 			);

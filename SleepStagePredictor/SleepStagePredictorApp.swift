@@ -4,17 +4,13 @@
 //
 //  Created by m on 8/15/24.
 //
-
 import SwiftUI
 
 @main
-struct SleepStagePredictorApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct MlTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MlTestView() // ContentView 대신 MlTestView를 사용합니다.
         }
     }
 }
